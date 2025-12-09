@@ -1,0 +1,9 @@
+UI → add(CounterIncrementPressed)
+    ↓
+Bloc receives event
+    ↓
+Bloc calculates new value
+    ↓
+Bloc emits CounterState(newCount)
+    ↓
+BlocBuilder rebuilds UI
